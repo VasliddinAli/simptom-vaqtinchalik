@@ -1,58 +1,35 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
-  </div>
+  <section>
+    <header>
+      <div class="header">
+        <div class="header-logo">
+          <img src="../assets/logo.jpg" alt="" />
+        </div>
+      </div>
+    </header>
+    <main>
+        <div class="main">
+            <h1>Симптом клиникамизга ҳуш келибсиз.</h1>
+        </div>
+        <div class="contact">
+            <div class="left">
+                <h1>Манзиллаимиз</h1>
+                <p class="phone">Телефон: <a href="tel:+998 90 778 04 11">+998 90 778 04 11</a></p>
+                <p class="phone">Телефон: <a href="tel:+998 90 778 02 43">+998 90 778 02 43</a></p>
+                <p>Жойлашув: <a href="https://www.google.com/maps?q=40.382713,71.802405&ll=40.382713,71.802405&z=16">Фарғона филояти, Аҳмад Яссавий 43-уй.</a></p>
+                <p>Мўлжал: Боярин кафеси олдида.</p>
+                <p>Иш вақти: Исталган вақт 24/7</p>
+            </div>
+            <div class="right">
+                <a href="https://t.me/+WxXm1yf8bXs0ZDhi" target="_blank">Телеграм</a>
+                <a href="#" target="_blank">Инстаграм</a>
+                <a href="#" target="_blank">Фаcебоок</a>
+            </div>
+        </div>
+    </main>
+    <div class="pictures">
+        <img src="../assets/01.jpg" alt="">
+        <img src="../assets/12.jpg" alt="">
+    </div>
+  </section>
 </template>
-
-<script>
-export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
-}
-</script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>

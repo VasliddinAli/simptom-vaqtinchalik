@@ -148,8 +148,8 @@ main .contact .right a:hover {
   }
   main .contact .left p {
     color: #fff;
-    font-size: 16px;
-    padding: 2px 0;
+    font-size: 18px;
+    padding: 3px 0;
     text-align: center;
   }
   main .contact .left p a {
@@ -166,7 +166,7 @@ main .contact .right a:hover {
     width: 100%;
     text-align: center;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 40px;
   }
   main .contact .right a {
     color: #ccc;
